@@ -1,0 +1,26 @@
+﻿Build started 8/9/2015 1:40:23 PM.
+     1>Project "C:\Users\sajid\Desktop\abs\abs\abs.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\sajid\Desktop\abs\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\abs.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\iGraphics with mouse function\iMain.cpp"
+         iMain.cpp
+     1>c:\users\sajid\desktop\igraphics with mouse function\imain.cpp(107): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sajid\Desktop\abs\Debug\abs.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\abs.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\sajid\Desktop\abs\Debug\abs.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sajid\Desktop\abs\Debug\abs.lib" /MACHINE:X86 Debug\iMain.obj
+         "..\..\iGraphics with mouse function\Glaux.lib"
+         "..\..\iGraphics with mouse function\GLUT32.LIB"
+         abs.vcxproj -> C:\Users\sajid\Desktop\abs\Debug\abs.exe
+       Manifest:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\sajid\Desktop\abs\Debug\abs.exe;#1" /manifest Debug\abs.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\abs.unsuccessfulbuild".
+         Touching "Debug\abs.lastbuildstate".
+     1>Done Building Project "C:\Users\sajid\Desktop\abs\abs\abs.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.07

@@ -1,0 +1,16 @@
+﻿Build started 8/19/2015 1:36:19 PM.
+     1>Project "C:\Users\sajid\Desktop\PUZZLE GAME\PUZZLE GAME\PUZZLE GAME.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\sajid\Desktop\PUZZLE GAME\Release\".
+       InitializeBuildStatus:
+         Creating "Release\PUZZLE GAME.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\iGraphics with mouse function\iMain.cpp"
+         iMain.cpp
+     1>..\..\iGraphics with mouse function\iMain.cpp(71): error C3861: 'howtoplay': identifier not found
+     1>..\..\iGraphics with mouse function\iMain.cpp(136): error C2065: 'flag' : undeclared identifier
+     1>Done Building Project "C:\Users\sajid\Desktop\PUZZLE GAME\PUZZLE GAME\PUZZLE GAME.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.18
